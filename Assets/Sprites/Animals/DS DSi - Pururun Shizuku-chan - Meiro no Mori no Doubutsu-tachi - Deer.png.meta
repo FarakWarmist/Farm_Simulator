@@ -1,0 +1,1434 @@
+fileFormatVersion: 2
+guid: f0dd2830321399b4fb4669c883ed81ca
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1091
+        width: 40
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1071450fc63e5004fbac1f830dcf1ff7
+      internalID: -1591415558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1091
+        width: 61
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dabfad6838eba749974722fd1c582ba
+      internalID: -900672488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1091
+        width: 40
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c53fef2a1b52a14cbe7166857685e61
+      internalID: 1432530388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_3
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1091
+        width: 61
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba88c3b28d6b454880a96164598c055
+      internalID: 1248043463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1010
+        width: 40
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6ca1b2d72a5e249adb0d03e20250e7
+      internalID: 1507100467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_5
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1009
+        width: 40
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3971ac5d0cac11c4b9480305932bdc83
+      internalID: -157214295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_6
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1010
+        width: 40
+        height: 66
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30ae029a8d3f884f994e021802853c1
+      internalID: 971133632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_7
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 929
+        width: 61
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb44d425ab00ac43b8ddaea9afc397b
+      internalID: 1808722721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_8
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 929
+        width: 63
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc5bc6542e9f0445b66ad1f8c334293
+      internalID: -144838383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_9
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 929
+        width: 61
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebb9e50819baca4b9822041a888ed62
+      internalID: 870288320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 848
+        width: 40
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa9e5a63d0a32a48ac95b7ade01290a
+      internalID: 1320825907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_11
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 848
+        width: 40
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4fb5226af232b24ca6f96d86b8f585d
+      internalID: -1103313326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_12
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 848
+        width: 40
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5c527bd05bf5a48912c6c5a88aad65
+      internalID: -1722032817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_13
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 767
+        width: 61
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e5b21181c79204e998fdb7453003fb
+      internalID: -604766826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_14
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 767
+        width: 63
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf28a311955a894e917b383de9dedb0
+      internalID: 108989671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_15
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 767
+        width: 61
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20596fdbe1be1634a8321d4ee9a8fa7b
+      internalID: 965554744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 693
+        width: 40
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a67c91055519b74e9b798396d12e8d2
+      internalID: -332515432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_17
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 694
+        width: 59
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf3637b30500824e8e966856af050b4
+      internalID: -1712076257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_18
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 694
+        width: 40
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670cc805176e65145a170b57ae1648f4
+      internalID: -703910972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_19
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 694
+        width: 59
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff21f7964c81a24f87795501d7d29e5
+      internalID: 868335999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 628
+        width: 40
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f07e3139b4125042a52acf3d9c1c057
+      internalID: -578538942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_21
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 628
+        width: 40
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac85f0316351f2c47b1e86b78dcb14c4
+      internalID: -1480945041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_22
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 628
+        width: 40
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c252ba1d9aaaa4c9f6031ca4ad2fd1
+      internalID: 228586279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_23
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 628
+        width: 40
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acdaeaeed8afd28448145f88ca9b5ba8
+      internalID: 1588572407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 556
+        width: 64
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57864bc3d2a94a344abc47ecaf38f0a8
+      internalID: 727786898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_25
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 556
+        width: 66
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e20c9253fcbf0e40ae1a1ab6524d85b
+      internalID: 1166451488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_26
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 556
+        width: 64
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b718e2267d7e68469430c1e81567d03
+      internalID: 684777688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_27
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 556
+        width: 64
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f2a9ad61f4c1347a3fc61ad3dc69b8
+      internalID: -1000078613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_28
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 483
+        width: 40
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff19f54868375447b7a0095cdb682f2
+      internalID: -5670252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_29
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 483
+        width: 40
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5b0d041aed707489fa847b8968bf1f
+      internalID: 1245897943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_30
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 483
+        width: 40
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241d41fa2b7e5d845a50c15048c87be2
+      internalID: 839811981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_31
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 483
+        width: 40
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b887f022136bd894396bc3d1d9348c4e
+      internalID: 772180140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_32
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 410
+        width: 64
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4ebb6ef7ffd984b911c090ae96af05
+      internalID: 1464226448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_33
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 410
+        width: 66
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8b6119d961470419a5f9e7046c445e
+      internalID: 1378954425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_34
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 410
+        width: 64
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b56acc27d27be340ab10230d7a7d80c
+      internalID: 162361439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_35
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 410
+        width: 64
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd99fafb7639724cae9b04d96ba116a
+      internalID: -1810904762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_36
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 334
+        width: 40
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59be082141fefa14eb3adf28a9307e2f
+      internalID: -1386527639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_37
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 334
+        width: 40
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12d91bd2a4ae0d48a89424afe781d9c
+      internalID: 977422935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_38
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 334
+        width: 40
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66347b8d3ba23f5478abb10dad3a9fa8
+      internalID: 1841767996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_39
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 334
+        width: 40
+        height: 71
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5c8f5aad955dc45b9b8d462c17c327
+      internalID: -1283899442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_40
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 334
+        width: 40
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4965e83429e58d249a021f5d99c2d008
+      internalID: 1782691410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_41
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 258
+        width: 61
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bfd570fa6882f4da150c21ec61758a
+      internalID: 1090952334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_42
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 258
+        width: 61
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36533412ab634144e8d5b50a87c4360d
+      internalID: -710614317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_43
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 258
+        width: 61
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb83db65382eed489d7a9b690fbbf7e
+      internalID: -344438570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_44
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 258
+        width: 61
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f267b5ff0adc21e48aebf27b073f17cf
+      internalID: -1015688717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_45
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 258
+        width: 61
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71affc925730988478893b82ad9ae959
+      internalID: -876042089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_46
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 174
+        width: 40
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c254aa74e396242449a51baf3db01734
+      internalID: -202737947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_47
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 174
+        width: 40
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa624e62a9c2ae141b1fe5c00c4f0d9d
+      internalID: -1802268860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_48
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 174
+        width: 40
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70653909adf6aba4baa66d5ec1ae3819
+      internalID: 487822066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_49
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 174
+        width: 40
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b1d3e5d1973724b93e5c9784ad559f
+      internalID: -1135143312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_50
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 174
+        width: 40
+        height: 74
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df62cd4fbe9b80249b3b4f167a30f7cb
+      internalID: -861771216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_51
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 98
+        width: 61
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1789e5336391c0447a4bbe1ca497e17e
+      internalID: -522775870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_52
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 98
+        width: 61
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da605b3491357bf43a284d7f48927f83
+      internalID: -1926707949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_53
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 98
+        width: 61
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751f22d74cbdd1441bcb22c85e1cae35
+      internalID: -475673905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_54
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 98
+        width: 61
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca3b99f3db6fbe488c40548596f7968
+      internalID: 177476865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_55
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 98
+        width: 61
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5156bfa42c694b649ba20d1c1cf7358e
+      internalID: -1111122569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_56
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 14
+        width: 61
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc9ce5734590ce4d85b0a05e4ed01c1
+      internalID: -2007834944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_57
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 14
+        width: 61
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e48d849ee28d6419cab07317754d92
+      internalID: 642690372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_58
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 14
+        width: 61
+        height: 72
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7141052a5fddb44d9c44de2f6f44fde
+      internalID: -1880891933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_59
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 14
+        width: 61
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bf1081c44205a40a7281b525d083f8
+      internalID: 873805031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_0: -1591415558
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_1: -900672488
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_10: 1320825907
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_11: -1103313326
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_12: -1722032817
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_13: -604766826
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_14: 108989671
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_15: 965554744
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_16: -332515432
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_17: -1712076257
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_18: -703910972
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_19: 868335999
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_2: 1432530388
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_20: -578538942
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_21: -1480945041
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_22: 228586279
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_23: 1588572407
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_24: 727786898
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_25: 1166451488
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_26: 684777688
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_27: -1000078613
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_28: -5670252
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_29: 1245897943
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_3: 1248043463
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_30: 839811981
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_31: 772180140
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_32: 1464226448
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_33: 1378954425
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_34: 162361439
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_35: -1810904762
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_36: -1386527639
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_37: 977422935
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_38: 1841767996
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_39: -1283899442
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_4: 1507100467
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_40: 1782691410
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_41: 1090952334
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_42: -710614317
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_43: -344438570
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_44: -1015688717
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_45: -876042089
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_46: -202737947
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_47: -1802268860
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_48: 487822066
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_49: -1135143312
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_5: -157214295
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_50: -861771216
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_51: -522775870
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_52: -1926707949
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_53: -475673905
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_54: 177476865
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_55: -1111122569
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_56: -2007834944
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_57: 642690372
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_58: -1880891933
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_59: 873805031
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_6: 971133632
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_7: 1808722721
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_8: -144838383
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Deer_9: 870288320
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
