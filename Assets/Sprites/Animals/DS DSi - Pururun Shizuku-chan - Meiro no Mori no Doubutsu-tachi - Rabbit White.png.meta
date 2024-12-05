@@ -1,0 +1,1107 @@
+fileFormatVersion: 2
+guid: 173b5050d12f68e44890e04cce670c56
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 411
+        width: 22
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26b428b8d4b1db40b54fde6604c2625
+      internalID: 614786169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 411
+        width: 30
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e5b80b70a58aa4aa800f5afdfe47f1
+      internalID: -748132752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 411
+        width: 22
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e3c0aab789c5944822af2b08ee7dce
+      internalID: 1664531198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 411
+        width: 30
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1108762545ed6a14484abe7bcc84b78e
+      internalID: -1962518287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_4
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 373
+        width: 22
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a08d053dc850940aca421d69d9fe7f
+      internalID: 950170370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 373
+        width: 22
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45056ddcc5eb6cd44ad81926e5be4dcb
+      internalID: -3209550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_6
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 374
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac9d31117616d240a91031c973e9964
+      internalID: 1816422587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_7
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 374
+        width: 22
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84b174c88ba4014295955f149528ea3
+      internalID: -705910588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 332
+        width: 30
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b08c8c80317eb468d82cf3a4258bf3
+      internalID: -542910607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_11
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 332
+        width: 31
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51633e27e5d31143848b616d224ac23
+      internalID: 1126853479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_12
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 333
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e224ffd3f1acdd14795f36640860fbf3
+      internalID: 863111866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_13
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 333
+        width: 34
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9683dc7ed24244c90b099603359dce
+      internalID: 912698310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 293
+        width: 22
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3914d3bafdd884a9a7851544202e90
+      internalID: -655407017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_17
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 293
+        width: 22
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90abec7e960825643bad4cfc4ab9a0ef
+      internalID: -711875849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_18
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 294
+        width: 24
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b494d9106974c44a404c8f4a54f598
+      internalID: -1118004175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 294
+        width: 24
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75f8b06deade1c439eaecd1fc430590
+      internalID: 396873770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_21
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 252
+        width: 30
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe775ea64ec72340ab264531c2d513f
+      internalID: 1654085852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_22
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 252
+        width: 31
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5619fc37f5f7274dae10792605261b2
+      internalID: -1595894105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_23
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 253
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79ca5564f96ad04f8ce440fcb549c32
+      internalID: 241360797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_24
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 253
+        width: 34
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6074535674ce1419b8a2bc15389d45
+      internalID: -676350203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_27
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 216
+        width: 22
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b9c2811e6d74b439496e2dd0c937f3
+      internalID: 615146653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_28
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 216
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee503b10bb439d438e78d56c08f94ab
+      internalID: 124295143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_29
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 216
+        width: 22
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5891e60a1dfe44a934cd158dd442f8
+      internalID: -2131429318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_30
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 216
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7db745c0efaea43953b746cdac8798
+      internalID: 1790043970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_31
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 178
+        width: 36
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05b2ba215d6f974bb989a294db5610b
+      internalID: -1931886323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_33
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 178
+        width: 40
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51edcc43c22219c489d889df9a67d09e
+      internalID: -1696875868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_35
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 179
+        width: 22
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1171032fceafe46b46d0f86b39bbbc
+      internalID: -476891770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_36
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 179
+        width: 22
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c1fe0871151574480c6203bf932da9
+      internalID: 831932860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_43
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 137
+        width: 30
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1847589894aeecf4eb8fe890f09f7eee
+      internalID: 1818133837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_45
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 138
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0204cfc8323f24887d0b3db5aaac22
+      internalID: -517625825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_46
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 138
+        width: 34
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c0de11b9b7e9c4fbf4a523c58738d0
+      internalID: 1844480718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_47
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 137
+        width: 31
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415754cb27c0bfe45a31ebb7c5856fe6
+      internalID: 1019368003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_51
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 98
+        width: 36
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cecfbe80ac777b49bb7d551fa128628
+      internalID: 1159815986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_54
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 98
+        width: 40
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a53ad799a6b8a4bba9e7fa6642d692
+      internalID: -1430160947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_56
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 99
+        width: 24
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862089a2464be3f4a86d830fc668d9d6
+      internalID: -524078766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_57
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 99
+        width: 24
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee8d4cd0d6f9604e92674ce78786043
+      internalID: 153843945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_59
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 57
+        width: 30
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7814509e8675743a51c331d1386dbf
+      internalID: 1856441048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_61
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 58
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0a002c1693f9f499c86297c77d3f00
+      internalID: 245769141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_62
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 58
+        width: 34
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15383ca710d70be41a7f6b29ded76476
+      internalID: 591919492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_64
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 57
+        width: 32
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d91f490d1075044a302321294c4932
+      internalID: -1975768796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_67
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 16
+        width: 30
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38360d297e1974419e48dd36720d7cb
+      internalID: 933444811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit
+        White_68
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 16
+        width: 30
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2abe07e271d2e4e86216b8e4eb0a44
+      internalID: -794679852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_0: 614786169
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_1: -748132752
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_10: -542910607
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_11: 1126853479
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_12: 863111866
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_13: 912698310
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_14: 259912650
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_15: -613109463
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_16: -655407017
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_17: -711875849
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_18: -1118004175
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_19: 396873770
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_2: 1664531198
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_20: -2144301885
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_21: 1654085852
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_22: -1595894105
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_23: 241360797
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_24: -676350203
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_25: -667770687
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_26: 1415219443
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_27: 615146653
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_28: 124295143
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_29: -2131429318
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_3: -1962518287
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_30: 1790043970
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_31: -1931886323
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_32: -1490395145
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_33: -1696875868
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_34: -1741180817
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_35: -476891770
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_36: 831932860
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_37: 1132594929
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_38: -1663664142
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_39: -528186215
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_4: 950170370
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_40: -1738848402
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_41: 926730041
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_42: -2061586140
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_43: 1818133837
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_44: 295965144
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_45: -517625825
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_46: 1844480718
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_47: 1019368003
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_48: -1000453093
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_49: 181681711
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_5: -3209550
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_50: 1691183989
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_51: 1159815986
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_52: 1448977371
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_53: -364099306
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_54: -1430160947
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_55: 1154201481
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_56: -524078766
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_57: 153843945
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_58: -692556130
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_59: 1856441048
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_6: 1816422587
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_60: 1101539960
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_61: 245769141
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_62: 591919492
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_63: -1878900935
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_64: -1975768796
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_65: 1962399879
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_66: 34128375
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_67: 933444811
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_68: -794679852
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_7: -705910588
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_8: 1381500935
+      DS DSi - Pururun Shizuku-chan - Meiro no Mori no Doubutsu-tachi - Rabbit White_9: -289235182
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
