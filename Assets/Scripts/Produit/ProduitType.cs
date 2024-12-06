@@ -5,6 +5,7 @@ using UnityEngine;
 public enum ProduitType 
 {
     None,
+    NPC,
     Herboriste,
     Bûcheron,
     Chasseur,

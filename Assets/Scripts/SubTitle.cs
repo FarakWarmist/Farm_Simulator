@@ -9,7 +9,7 @@ public class SubTitle : MonoBehaviour
 {
     public static SubTitle Instance {get; private set;}
     [SerializeField] private TMP_Text _subtitleText;
-    [SerializeField] private GameObject _subtitle;
+    [SerializeField] private Image _imageSubtitle;
 
     private void Awake()
     {
@@ -21,21 +21,28 @@ public class SubTitle : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
-            gameObject.SetActive(false);
+            _imageSubtitle.gameObject.SetActive(false);
         }
     }
 
     public void SetSubtitle(string subtitleText, int delay)
     {
-        _subtitle.SetActive(true);
-        _subtitleText.text = subtitleText;
-        StartCoroutine(RemoveSubtitle(delay));
+        if (_imageSubtitle != null && _subtitleText != null)
+        {
+            _imageSubtitle.gameObject.SetActive(true);
+            _subtitleText.text = subtitleText;
+            StartCoroutine(RemoveSubtitle(delay));
+        }
+        else
+        {
+            Debug.LogError("_imageSubtitle or _subtitleText is null.");
+        }
     }
 
     private IEnumerator RemoveSubtitle(int delay)
     {
         yield return new WaitForSeconds(delay);
         _subtitleText.text = string.Empty;
-        _subtitle.SetActive(false);
+        _imageSubtitle.gameObject.SetActive(false);
     }
 }
