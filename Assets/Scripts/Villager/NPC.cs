@@ -29,4 +29,5 @@ public class NPC : Villager
             Debug.Log("Shop isnt initialized");
         }
     }
+
 }

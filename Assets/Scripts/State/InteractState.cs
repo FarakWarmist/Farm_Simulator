@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InteractState : PlayerState
+public class InteractState : PlayerState //Script de l'etat d'interaction
 {
     public override void EnterState(PlayerController player)
     {

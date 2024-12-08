@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IdleState : PlayerState
+public class IdleState : PlayerState //Script de l'etat idle
 {
     public override void EnterState(PlayerController player)
     {

@@ -17,6 +17,11 @@ public abstract class Villager : MonoBehaviour, IInteractable
         set => _villagerName = value;
     }
 
+    public string GetInteractionPrompt()
+    {
+        return "Press F to talk";
+    }
+
     private int _startDay;   // L'heure que le villageois commence sa journée
     protected int StartDay       
     {
