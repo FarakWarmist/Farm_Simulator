@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.IO.LowLevel.Unsafe;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.Playables;
 
@@ -18,6 +19,9 @@ public class PlayerController : MonoBehaviour
     public GameObject InteractionUI;
     public IInteractable CurrentInteractable;
     public bool IsInteracting;
+    public ToolSystem ToolSystem;
+    private Vector2 direction = Vector2.zero;
+
 
     private void Start()
     {
@@ -25,21 +29,52 @@ public class PlayerController : MonoBehaviour
         SwitchState(IdleState);
     }
 
-    private void Update() //On change d'etat si on interragit avec un object interactif
-        //( vers l'etat d'interraction VS l'etat idle)
+    private void Update()
     {
 
         movementInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
 
+        //Porte ou NPC
         if (Input.GetKeyDown(KeyCode.E) && CurrentInteractable is Door)
         {
             IsInteracting = true;
-            SwitchState(InteractState);
+            SwitchState(InteractState); //On change d'etat si on interragit avec un object interactif
+                                        //( vers l'etat d'interraction VS l'etat idle)
         }
-        else if (Input.GetKeyDown(KeyCode.F) && CurrentInteractable is NPC)
+
+        if (Input.GetKeyDown(KeyCode.F) && CurrentInteractable is NPC)
         {
             IsInteracting = true;
             SwitchState(InteractState);
+
+        }
+
+
+        //Outils
+        if (Input.GetKeyDown(KeyCode.Alpha1)) 
+        {
+            ToolSystem.EquipTool(FindObjectOfType<Axe>());
+        
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            ToolSystem.EquipTool(FindObjectOfType<Pickaxe>());
+
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            ToolSystem.EquipTool(FindObjectOfType<FishingRod>());
+
+        }
+
+        //Use the tool
+        if (Input.GetMouseButtonDown(0)) 
+        {
+            if (direction ==  Vector2.zero)
+            {
+                direction = Vector2.right;
+            }
+            ToolSystem.UseTool(transform.position, direction);
         }
 
     }
