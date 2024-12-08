@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public abstract class Villager : MonoBehaviour, IInteractable
 {
     [SerializeField] protected GameShop _shop;
+    protected ProduitManager _produitManager;
 
     protected string DialogueVillager { get; set; }
 
@@ -26,35 +27,14 @@ public abstract class Villager : MonoBehaviour, IInteractable
     protected int StartDay       
     {
         get => _startDay;
-        set
-        {
-            if (value > 0)
-            {
-                _startDay = value;
-            }
-            else
-            {
-                _startDay = 0;
-            }
-        }
+        set => _startDay = Mathf.Clamp(value, 0, 24);
     }
 
     private int _endDay; // L'heure que le villagois fini sa journée
     protected int EndDay           
     {
         get => _endDay;
-
-        set
-        {
-            if (value > _startDay)
-            {
-                _endDay = value;
-            }
-            else
-            {
-                _endDay = _startDay + 1;
-            }
-        }
+        set => _endDay = Mathf.Clamp(value, _startDay + 1, 24);
     }
 
     public Villager(string villagerName, int startDay, int endDay)

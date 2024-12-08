@@ -8,7 +8,7 @@ using UnityEngine.UI;
 
 public interface ISell 
 {
-    void Vendre();
+    void Sell();
 }
 
 

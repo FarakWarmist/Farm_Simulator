@@ -3,11 +3,11 @@ using System.Linq;
 
 public class ProduitManager
 {
-    private List<Produit> _produitNPC = new List<Produit>();
-    private List<Produit> _produitPlayer = new List<Produit>();
+    private static List<Produit> _produitNPC = new List<Produit>();
+    private static List<Produit> _produitPlayer = new List<Produit>();
 
-    public List<Produit> ProduitsNPC => _produitNPC;
-    public List<Produit> ProduitsPlayer => _produitPlayer;
+    public static List<Produit> ProduitsNPC => _produitNPC;
+    public static List<Produit> ProduitsPlayer => _produitPlayer;
 
     public void AddProduit(Produit item)
     {

@@ -9,7 +9,13 @@ public class TimeController : MonoBehaviour
 {
     [SerializeField] private float _speedTime = 10f;  // La vitesse que le temps avance dans le jeu 
     [SerializeField] private TMP_Text _timeText;
+    private TimeData _timeData;
     private WeekDay _weekDay;
+
+    public void Start()
+    {
+        _timeData = GameManagerTime.Instance.TimeData;
+    }
 
     private void Update()
     {
@@ -19,16 +25,16 @@ public class TimeController : MonoBehaviour
 
     private void UpdateTime()
     {
-        GameManagerTime.Instance.CurrentTime += Time.deltaTime * _speedTime;
+        _timeData.CurrentTime += Time.deltaTime * _speedTime;
 
-        if (GameManagerTime.Instance.CurrentTime > 86400f)
+        if (_timeData.CurrentTime > 86400f)
         {
-            GameManagerTime.Instance.CurrentTime = 0;
-            GameManagerTime.Instance.Day++;
+            _timeData.CurrentTime = 0;
+            _timeData.Day++;
 
-            if (GameManagerTime.Instance.Day > 6)
+            if (_timeData.Day > 6)
             {
-                GameManagerTime.Instance.Day = 0;
+                _timeData.Day = 0;
             }
 
             GameManagerTime.Instance.SaveData();
@@ -37,9 +43,9 @@ public class TimeController : MonoBehaviour
 
     private void UpdateText()
     {
-        TimeSpan timeSpan = TimeSpan.FromSeconds(GameManagerTime.Instance.CurrentTime);
+        TimeSpan timeSpan = TimeSpan.FromSeconds(_timeData.CurrentTime);
 
-        switch (GameManagerTime.Instance.Day)
+        switch (_timeData.Day)
         {
             case 0:
                 _weekDay = WeekDay.Dimanche;
@@ -67,11 +73,3 @@ public class TimeController : MonoBehaviour
         _timeText.text = $"{_weekDay}: {timeSpan.Hours}H {timeSpan.Minutes:00}Min {timeSpan.Seconds:00}Sec";
     }
 }
-
-
-
-
-                
-        
-    
-

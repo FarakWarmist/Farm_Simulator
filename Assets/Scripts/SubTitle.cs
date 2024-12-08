@@ -7,23 +7,8 @@ using UnityEngine.UI;
 
 public class SubTitle : MonoBehaviour
 {
-    public static SubTitle Instance {get; private set;}
     [SerializeField] private TMP_Text _subtitleText;
     [SerializeField] private Image _imageSubtitle;
-
-    private void Awake()
-    {
-        if (Instance != null)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-            _imageSubtitle.gameObject.SetActive(false);
-        }
-    }
 
     public void SetSubtitle(string subtitleText, int delay)
     {
@@ -37,6 +22,12 @@ public class SubTitle : MonoBehaviour
         {
             Debug.LogError("_imageSubtitle or _subtitleText is null.");
         }
+    }
+
+    public void SetSubtitle(string subtitleText)
+    {
+        _imageSubtitle.gameObject.SetActive(true);
+        _subtitleText.text = subtitleText;
     }
 
     private IEnumerator RemoveSubtitle(int delay)

@@ -15,6 +15,12 @@ public class NPC : Villager
         VillagerName = "Marie";
         StartDay = 8;
         EndDay = 17;
+        _produitManager = new ProduitManager();
+        var oeuf = new Produit("oeuf",10,ProduitType.NPC, 10);
+        var lait = new Produit("lait",15,ProduitType.NPC, 15);
+
+        _produitManager.AddProduit(oeuf);
+        _produitManager.AddProduit(lait);
     }
 
     public override void Interact()

@@ -8,114 +8,70 @@ using UnityEngine.Events;
 
 public class GameShop : MonoBehaviour
 {
-    [SerializeField] protected Transform _parentTransform;
-    [SerializeField] protected Button _buttonPrefab;
-    protected Vector3 _originalButtonPossition;
-    protected float yPosition;
+    [SerializeField] private Transform _parentTransform;
+    [SerializeField] private Button _buttonPrefab;
+    [SerializeField] protected SubTitle _subTitle;
+    [SerializeField] private Image _goldPlayerImage;
+
+    protected ShopUIManager _shopUIManager;
+    protected ButtonFactory _buttonFactory;
+    protected PlayerData _playerData;
+    protected ProduitManager _produitManager;
 
     private IBuy _buyHandler;
     private ISell _sellHandler;
 
-    private void Awake()
+    private void Start()
     {
+        _shopUIManager = new ShopUIManager(_parentTransform);
+        _buttonFactory = new ButtonFactory(_parentTransform, _buttonPrefab, _shopUIManager);
+
         _buyHandler = GetComponent<IBuy>();
         _sellHandler = GetComponent<ISell>();
+
+        _produitManager = new ProduitManager();
+        _playerData = GameManagerPlayerData.Instance.PlayerData;
+
+        _goldPlayerImage.gameObject.SetActive(false);
     }
 
     public void Shop(ProduitType produitType)
     {
-        //Sauvegarder la position original
-        _originalButtonPossition = _parentTransform.transform.localPosition;
-        float xPosition = _originalButtonPossition.x;
-        float yPosition = 500f;
+        _subTitle.SetSubtitle("Bonjour, comment je peux vous aider ajourd'hui");
 
+        //Sauvegarder la position original
+        _shopUIManager.ClearUI();
+        _shopUIManager.ResetPosition();
         Time.timeScale = 0;
 
         //Cree le button Acheter
-        CreateButton(new Vector3(xPosition, yPosition, 0), "Acheter", () =>
-        {
+        _buttonFactory.CreateButton("Acheter", () => _buyHandler.Buy(produitType));
+        _shopUIManager.DecreaseYPosition();
 
-            if (_buyHandler != null)
-            {
-                _buyHandler.Buy(produitType);
-            }
-            else
-            {
-                Debug.Log("IAcheter = null");
-            }
-        });
+        //Cree le Button Vendre
+        _buttonFactory.CreateButton("Vendre", () => _sellHandler.Sell());
+        _shopUIManager.DecreaseYPosition();
 
-        yPosition -= 100f;
-
-        //Cree le button Vendre
-        CreateButton(new Vector3(xPosition, yPosition, 0), "Vendre", () =>
-        {
-
-            if (_sellHandler != null)
-            {
-                _sellHandler.Vendre();
-            }
-        });
-
-        yPosition -= 100f;
-
-        ExitShop();
-    }
-    
-    //Pour cree des Buttons 
-    protected Button CreateButton(Vector3 position, string text, UnityAction action)
-    {
-        //Cree un button 
-        Button button = Instantiate(_buttonPrefab, _parentTransform.transform);
-        button.transform.localPosition = position;
-        button.GetComponentInChildren<TMP_Text>().text = text;
-        button.onClick.AddListener(action);
-        return button;
+        //Cree le button Exit
+       ExitButton();
     }
 
-    //Pour supprimer ce qu'il ya dans le parent (les Buttons)
-    protected void ClearUI()
+    protected void CloseShop()
     {
-        if (_parentTransform.transform.childCount > 0)
-        {
-            foreach (Transform child in _parentTransform.transform)
-            {
-                Destroy(child.gameObject);
-            }
-        }
-    }
-
-    //Pour quitter la boutique
-    protected void ExitShop()
-    {
-        //Sauvegarder la position original
-        _originalButtonPossition = _parentTransform.transform.localPosition;
-        float xPosition = _originalButtonPossition.x;
-
-        //Exit Button
-        CreateButton(new Vector3(xPosition, yPosition, 0), "Exit", ClickExitBoutique); 
-    }
-
-    //Pour Updater l'affichage des produits 
-    protected void UpdateTextButton(Produit item, Button button)
-    {
-        TMP_Text buttonText = button.GetComponentInChildren<TMP_Text>();
-
-        button.GetComponentInChildren<TMP_Text>().text = item.ToString();
-    }
-
-    protected void QuitShopState(string text)
-    {
-        SubTitle.Instance.SetSubtitle(text, 3);
         Time.timeScale = 1f;
-        ClearUI();
-        return;
+        _shopUIManager.ClearUI();
+        _subTitle.SetSubtitle("Bonne journee !!", 3);
+        _goldPlayerImage.gameObject.SetActive(false);
     }
 
-
-    private void ClickExitBoutique()
+    protected void ExitButton()
     {
-        ClearUI();
-        Time.timeScale = 1f;
+        _buttonFactory.CreateButton("Exit", () => CloseShop());
+    }
+
+    protected void ShowGold()
+    {
+        _goldPlayerImage.gameObject.SetActive(true);
+        _goldPlayerImage.GetComponentInChildren<TMP_Text>().text = $"Gold: {_playerData.Gold}";
     }
 }

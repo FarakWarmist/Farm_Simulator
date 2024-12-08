@@ -1,79 +1,83 @@
-//using System.Collections;
-//using System.Collections.Generic;
-//using System.Linq;
-//using TMPro;
-//using UnityEngine;
-//using UnityEngine.UI;
+using System.Linq;
+using UnityEngine.UI;
 
-//public class BuyProduct : GameShop, IBuy
-//{
-//    public void Buy(ProduitType produitType)
-//    {
-//        ClearUI();
+public class BuyProduct : GameShop, IBuy
+{
+    public void Buy(ProduitType produitType)
+    {
+        _shopUIManager.ClearUI();
+        _shopUIManager.ResetPosition();
+        ShowGold();
 
-//        //Savegarder la possition du button 
-//        _originalButtonPossition = _parentTransform.transform.localPosition;
-//        float xPosition = _originalButtonPossition.x;
-//        yPosition = 500f;
+        //Chercher tout les produit de leur ProduitType
+        var produits = ProduitManager.ProduitsNPC
+        .Where(produit => produit.ProduitVendeur == produitType && produit.Quantiter > 0)
+        .Distinct();
 
-//        //Chercher tout les produit de leur ProduitType
-//        //var produits = Produit.ProduitList
-//        .Where(produit => produit.ProduitVendeur == produitType && produit.Quantiter > 0)
-//        .Distinct();
+        if (!produits.Any()) //S'il ne trouve aucun produit
+        {
+            _subTitle.SetSubtitle("Aucun produit disponible à acheter", 3);
+            CloseShop();
+            return;
+        }
 
-//        if (!produits.Any()) //S'il ne trouve aucun produit
-//        {
-//            SubTitle.Instance.SetSubtitle("Aucun produit disponible à acheter.", 3);
-//            Time.timeScale = 1f;
-//            ClearUI();
-//            return;
-//        }
+        _subTitle.SetSubtitle("Quel Produit tu veux acheter");
 
-//        //Cree les button pour les produits du NPC
-//        foreach (var produit in produits)
-//        {
-//            Button button = null;
-//            button = CreateButton(new Vector3(xPosition, yPosition, 0), produit.ToString(), () =>
-//                  ClickAcheterProduit(produit, button, produitType)
+        //Cree les buttons pour les produits du NPC
+        foreach (var produit in produits)
+        {
+            Button button = null;
+            button = _buttonFactory.CreateButton(produit.ToString(), () =>
+                  ClickBuyProduit(produit, button, produitType)
+                );
 
-//                );
-//            yPosition -= 100; 
-//        }
+            _shopUIManager.DecreaseYPosition();
+        }
 
-//        ExitShop();
-//    }
-     
-//    private void ClickAcheterProduit(Produit item, Button button, ProduitType produitType)
-//    {
-//        if (GameManagerPlayerData.Instance.Gold < item.ProduitPrice)
-//        {
-//            QuitShopState("Vous avez pas assez d'argent pour acheter");
-//        }
+        //Button Exit
+        ExitButton();
+    }
 
-//        GameManagerPlayerData.Instance.Gold -= item.ProduitPrice;
+    private void ClickBuyProduit(Produit item, Button button, ProduitType produitType)
+    {
+        //Check si le player a assez de Gold
+        if (_playerData.Gold < item.ProduitPrice)
+        {
+            _subTitle.SetSubtitle("Vous avez pas assez d'argent pour acheter", 3);
+            CloseShop();
+            return;
+        }
 
-//        item.Quantiter--;
+        //Soustraire le gold du player avec le prix de l'item & diminuer la quantiter
+        _playerData.Gold -= item.ProduitPrice;
+        item.Quantiter--;
 
-//        UpdateTextButton(item, button);
+        //Update le button Text
+        _shopUIManager.UpdateText(item, button);
+        ShowGold();
 
-//        if (item.Quantiter <= 0)
-//        {
-//            Produit.ProduitList.Remove(item);
-//            Destroy(button.gameObject);
-//            return;
-//        }
+        //Check si le produit n'est plus rendu a 0
+        if (item.Quantiter <= 0)
+        {
+            _produitManager.RemoveItem(item);
+            Destroy(button.gameObject);
+            return;
+        }
 
-//        Produit playerItem = Produit.ProduitPlayer
-//        .Where(produit => produit.ProduitName == item.ProduitName).
-//                             FirstOrDefault();
+        //Chercher le produit dans l'inventaire du player
+        Produit playerItem = ProduitManager.ProduitsPlayer
+        .Where(produit => produit.ProduitName == item.ProduitName).
+                             FirstOrDefault();
 
-//        if (playerItem != null)
-//        {
-//            playerItem.Quantiter++;
-//        }
-//        else
-//        {
-//            Produit.ProduitPlayer.Add(new Produit(item.ProduitName, item.ProduitPrice - 10, ProduitType.Player, 1));
-//        }
-//    }
-//}
+        if (playerItem != null)
+        {
+            playerItem.Quantiter++;
+        }
+        else
+        {
+            var produit = new Produit(item.ProduitName, item.ProduitPrice - 5, ProduitType.Player, 1);
+            _produitManager.AddProduit(produit);
+        }
+
+    }
+}
