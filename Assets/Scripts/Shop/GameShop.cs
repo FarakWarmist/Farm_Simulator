@@ -18,16 +18,10 @@ public class GameShop : MonoBehaviour
     protected PlayerData _playerData;
     protected ProductManager _produitManager;
 
-    private IBuy _buyHandler;
-    private ISell _sellHandler;
-
     private void Start()
     {
         _shopUIManager = new ShopUIManager(_parentTransform);
         _buttonFactory = new ButtonFactory(_parentTransform, _buttonPrefab, _shopUIManager);
-
-        _buyHandler = GetComponent<IBuy>();
-        _sellHandler = GetComponent<ISell>();
 
         _produitManager = new ProductManager();
         _playerData = GameManagerPlayerData.Instance.PlayerData;
@@ -35,7 +29,7 @@ public class GameShop : MonoBehaviour
         _goldPlayerImage.gameObject.SetActive(false);
     }
 
-    public void Shop(ProductType productType)
+    public void Shop(ProductType productType, IBuy buyHandler, ISell sellHandler)
     {
         _subTitle.SetSubtitle("Bonjour, comment je peux vous aider ajourd'hui");
 
@@ -45,18 +39,20 @@ public class GameShop : MonoBehaviour
         Time.timeScale = 0;
 
         //Cree le button Acheter
-        _buttonFactory.CreateButton("Acheter", () => _buyHandler.Buy(productType));
+        //_buttonFactory.CreateButton("Acheter", () => _buyHandler.Buy(productType));
         _shopUIManager.DecreaseYPosition();
 
         //Cree le Button Vendre
-        _buttonFactory.CreateButton("Vendre", () => _sellHandler.Sell());
+        //_buttonFactory.CreateButton("Vendre", () => _sellHandler.Sell());
         _shopUIManager.DecreaseYPosition();
 
         //Cree le button Exit
        ExitButton();
     }
 
-    protected void CloseShop()
+
+    //private void AddCommandButton(ICommand command, );
+    public void CloseShop()
     {
         Time.timeScale = 1f;
         _shopUIManager.ClearUI();

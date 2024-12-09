@@ -39,7 +39,7 @@ public class NPC : Villager
         if (_shop != null)
         {
             Debug.Log(2);
-            _shop.Shop(ProductType.NPC);
+            //_shop.Shop(ProductType.NPC);
         }
         else
         {
