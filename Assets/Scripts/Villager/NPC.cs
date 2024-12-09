@@ -36,10 +36,12 @@ public class NPC : Villager
 
     public override void Interact()
     {
+        IBuy buyHandler = GetComponent<IBuy>();
+        ISell sellHandler = GetComponent<ISell>();
+
         if (_shop != null)
         {
-            Debug.Log(2);
-            //_shop.Shop(ProductType.NPC);
+            _shop.Shop(ProductType.NPC, buyHandler, sellHandler);
         }
         else
         {

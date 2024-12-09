@@ -39,19 +39,23 @@ public class GameShop : MonoBehaviour
         Time.timeScale = 0;
 
         //Cree le button Acheter
-        //_buttonFactory.CreateButton("Acheter", () => _buyHandler.Buy(productType));
-        _shopUIManager.DecreaseYPosition();
+        AddCommandButton(new BuyCommand(productType, buyHandler),"Acheter");
 
         //Cree le Button Vendre
-        //_buttonFactory.CreateButton("Vendre", () => _sellHandler.Sell());
-        _shopUIManager.DecreaseYPosition();
+        AddCommandButton(new SellCommand(sellHandler),"Vendre");
 
         //Cree le button Exit
-       ExitButton();
+        AddCommandButton(new ExitCommand(this), "Quitter");
     }
 
+    //Patron de Commande
+    private void AddCommandButton(ICommand command, string text)
+    {
+        _buttonFactory.CreateButton(text, () => command.Execute());
+        _shopUIManager.DecreaseYPosition();
+    }
 
-    //private void AddCommandButton(ICommand command, );
+    //Pour Fermer le Shop
     public void CloseShop()
     {
         Time.timeScale = 1f;
@@ -60,11 +64,13 @@ public class GameShop : MonoBehaviour
         _goldPlayerImage.gameObject.SetActive(false);
     }
 
+    //cree lle button exit
     protected void ExitButton()
     {
         _buttonFactory.CreateButton("Exit", () => CloseShop());
     }
 
+    //Montrer combien de Gold a le Player
     protected void ShowGold()
     {
         _goldPlayerImage.gameObject.SetActive(true);
