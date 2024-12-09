@@ -5,5 +5,5 @@ using UnityEngine.UI;
 
 public interface IBuy
 {
-    void Buy(ProduitType produitType);
+    void Buy(ProductType produitType);
 }

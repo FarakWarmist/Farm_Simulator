@@ -7,23 +7,23 @@ using UnityEngine;
 public class TimeData
 {
     [SerializeField] private float _currentTime;
-    [SerializeField] private int _day;
+    [SerializeField] private int _dayWeek;
 
     public float CurrentTime
     {
         get => _currentTime;
-        set => _currentTime = Mathf.Max(0,value); //Pas d'heure negatif
+        set => _currentTime = Mathf.Clamp(value,0,86400f); //Pas d'heure negatif eet ne pas depasser 24h
     }
 
-    public int Day
+    public int DayWeek
     {
-        get => _day;
-        set => _day = Mathf.Max(0, value); // Pas de jour négatif
+        get => _dayWeek;
+        set => _dayWeek = Mathf.Clamp(value,0, 6); // Pas de jour négatif et ne pas depaser 6jours
     }
 
     public TimeData()
     {
-        _currentTime = 0;
-        _day = 0;
+        CurrentTime = 0;
+        DayWeek = 0;
     }
 }

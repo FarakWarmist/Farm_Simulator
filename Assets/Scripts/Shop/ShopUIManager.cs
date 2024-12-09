@@ -9,8 +9,8 @@ public class ShopUIManager
 {
     private Transform _parentTransform;
     private float _ySpacing = 100;
-    private float xPosition;
-    private float yPosition = 300.0f;
+    private float _yDefaultPosition = 300f;
+    private float _currentYPosition;
 
     public ShopUIManager(Transform transform) 
     {
@@ -33,13 +33,12 @@ public class ShopUIManager
     public Vector3 UIPosition()
     {
         Vector3 position = _parentTransform.localPosition;
-        xPosition = position.x;
-        position.y = yPosition;
+        position.y = _currentYPosition;
         return position;
     }
 
     //Pour Updater l'affichage des produits 
-    public void UpdateText(Produit item, Button button)
+    public void UpdateButtonText(Product item, Button button)
     {
         TMP_Text buttonText = button.GetComponentInChildren<TMP_Text>();
         button.GetComponentInChildren<TMP_Text>().text = item.ToString();
@@ -48,20 +47,19 @@ public class ShopUIManager
     //Pour diminuer la position Y
     public void DecreaseYPosition()
     {
-        yPosition -= _ySpacing;
+        _currentYPosition -= _ySpacing;
 
         Vector3 position = _parentTransform.localPosition;
-        position.y = yPosition;
+        position.y = _currentYPosition;
         _parentTransform.localPosition = position;
     }
 
     //Reset la position
     public void ResetPosition()
     {
-        yPosition = 300.0f;
+        _currentYPosition = _yDefaultPosition;
         Vector3 position = _parentTransform.localPosition;
-        xPosition = position.x;
-        position.y = yPosition;
+        position.y = _currentYPosition;
         _parentTransform.localPosition = position;
     }
 }

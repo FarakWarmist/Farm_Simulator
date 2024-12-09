@@ -29,12 +29,12 @@ public class TimeController : MonoBehaviour
 
         if (_timeData.CurrentTime > 86400f)
         {
-            _timeData.CurrentTime = 0;
-            _timeData.Day++;
+            _timeData.CurrentTime -= 86400f;
+            _timeData.DayWeek++;
 
-            if (_timeData.Day > 6)
+            if (_timeData.DayWeek > 6)
             {
-                _timeData.Day = 0;
+                _timeData.DayWeek = 0;
             }
 
             GameManagerTime.Instance.SaveData();
@@ -45,7 +45,7 @@ public class TimeController : MonoBehaviour
     {
         TimeSpan timeSpan = TimeSpan.FromSeconds(_timeData.CurrentTime);
 
-        switch (_timeData.Day)
+        switch (_timeData.DayWeek)
         {
             case 0:
                 _weekDay = WeekDay.Dimanche;

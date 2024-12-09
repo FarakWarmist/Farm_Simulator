@@ -68,14 +68,14 @@ public class PlayerController : MonoBehaviour
         }
 
         //Use the tool
-        //if (Input.GetMouseButtonDown(0))
-        //{
-        //    if (direction == Vector2.zero)
-        //    {
-        //        direction = Vector2.right;
-        //    }
-        //    ToolSystem.UseTool(transform.position, direction);
-        //}
+        if (Input.GetMouseButtonDown(1))
+        {
+            if (direction == Vector2.zero)
+            {
+                direction = Vector2.right;
+            }
+            ToolSystem.UseTool(transform.position, direction);
+        }
 
     }
 

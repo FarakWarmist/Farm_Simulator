@@ -20,7 +20,7 @@ public class PlayerData
 
     public PlayerData()
     {
-        _gold = 200;
-        _dette = 500;
+        Gold = 200;
+        Dette = 500;
     }
 }

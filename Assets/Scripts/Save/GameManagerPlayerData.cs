@@ -8,7 +8,7 @@ public class GameManagerPlayerData : MonoBehaviour, ISave
 {
     public static GameManagerPlayerData Instance { get; private set; }
     public PlayerData PlayerData { get; private set; }
-    public InventoryPlayerSave PlayerInventory { get; private set; }
+    public InventoryPlayerData PlayerInventory { get; private set; }
 
     private void Awake()
     {
@@ -32,7 +32,7 @@ public class GameManagerPlayerData : MonoBehaviour, ISave
         Debug.Log($"{PlayerData.Gold}, {PlayerData.Dette}");
 
         //Pour save l'Inventaire
-        PlayerInventory = new InventoryPlayerSave(ProduitManager.ProduitsPlayer);
+        PlayerInventory = new InventoryPlayerData(ProductManager.PlayerProducts);
         string produitJson = JsonUtility.ToJson(PlayerInventory, true);
         string file_pathJson = Path.Combine(Application.persistentDataPath, "PlayerInventory.json");
         File.WriteAllText(file_pathJson, produitJson);
@@ -58,14 +58,14 @@ public class GameManagerPlayerData : MonoBehaviour, ISave
         if (File.Exists(file_pathProduit))
         {
             string produitJson = File.ReadAllText(file_pathProduit);
-            PlayerInventory = JsonUtility.FromJson<InventoryPlayerSave>(produitJson);
+            PlayerInventory = JsonUtility.FromJson<InventoryPlayerData>(produitJson);
 
-            ProduitManager.ProduitsPlayer.Clear();
-            ProduitManager.ProduitsPlayer.AddRange(PlayerInventory.ProduitList);
+            ProductManager.PlayerProducts.Clear();
+            ProductManager.PlayerProducts.AddRange(PlayerInventory.ProduitList);
         }
         else
         {
-            PlayerInventory = new InventoryPlayerSave(ProduitManager.ProduitsPlayer);
+            PlayerInventory = new InventoryPlayerData(ProductManager.PlayerProducts);
         }
     }
 
@@ -84,7 +84,7 @@ public class GameManagerPlayerData : MonoBehaviour, ISave
         if (File.Exists(file_pathInventory))
         {
             File.Delete(file_pathInventory);
-            PlayerInventory = new InventoryPlayerSave(ProduitManager.ProduitsPlayer);
+            PlayerInventory = new InventoryPlayerData(ProductManager.PlayerProducts);
         }
     }
 }

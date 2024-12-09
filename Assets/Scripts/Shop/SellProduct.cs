@@ -14,14 +14,13 @@ public class SellProduct : GameShop, ISell
         ShowGold();
 
         //Chercher tout les produit du Player et leur quantiter
-        var produits = ProduitManager.ProduitsPlayer
-        .Where(produit => produit.Quantiter > 0)
+        var produits = ProductManager.PlayerProducts
+        .Where(produit => produit.Quantity > 0)
         .Distinct();
 
         if (!produits.Any())
         {
             _subTitle.SetSubtitle("Vous avez aucun produit dans votre inventaire", 3);
-            CloseShop();
             return;
         }
 
@@ -39,18 +38,18 @@ public class SellProduct : GameShop, ISell
         ExitButton();
     }
 
-    private void ClickSellProduit(Produit item, Button button)
+    private void ClickSellProduit(Product item, Button button)
     {
         _playerData.Gold += item.ProduitPrice;
 
-        item.Quantiter--;
+        item.Quantity--;
 
-        _shopUIManager.UpdateText(item, button);
+        _shopUIManager.UpdateButtonText(item, button);
         ShowGold();
 
-        if (item.Quantiter == 0)
+        if (item.Quantity == 0)
         {
-            ProduitManager.ProduitsPlayer.Remove(item);
+            ProductManager.PlayerProducts.Remove(item);
             Destroy(button.gameObject);
         }
     }

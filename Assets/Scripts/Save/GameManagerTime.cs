@@ -27,7 +27,7 @@ public class GameManagerTime : MonoBehaviour, ISave
         string json = JsonUtility.ToJson(TimeData, true);
         string file_path = Path.Combine(Application.persistentDataPath, "Time.json");
         File.WriteAllText(file_path, json);
-        Debug.Log($"Data loaded: CurrentTime={TimeData.CurrentTime}, {TimeData.Day}");
+        Debug.Log($"Data loaded: CurrentTime:{TimeData.CurrentTime}, {TimeData.DayWeek}");
     }
 
     public void LoadData() // Loader le Temps et le jour 
@@ -38,12 +38,12 @@ public class GameManagerTime : MonoBehaviour, ISave
         {
             string json = File.ReadAllText(file_path);
             TimeData = JsonUtility.FromJson<TimeData>(json);
-            Debug.Log($"Data loaded: CurrentTime={TimeData.CurrentTime},  {TimeData.Day}");
+            Debug.Log($"Data loaded: CurrentTime={TimeData.CurrentTime},  {TimeData.DayWeek}");
         }
         else
         {
             TimeData = new TimeData();
-            Debug.Log($"Data loaded: CurrentTime={TimeData.CurrentTime},  {TimeData.Day}");
+            Debug.Log($"Data loaded: CurrentTime={TimeData.CurrentTime},  {TimeData.DayWeek}");
         }
     }
 

@@ -10,13 +10,13 @@ public class GameShop : MonoBehaviour
 {
     [SerializeField] private Transform _parentTransform;
     [SerializeField] private Button _buttonPrefab;
-    [SerializeField] protected SubTitle _subTitle;
     [SerializeField] private Image _goldPlayerImage;
+    [SerializeField] protected Subtitles _subTitle;
 
     protected ShopUIManager _shopUIManager;
     protected ButtonFactory _buttonFactory;
     protected PlayerData _playerData;
-    protected ProduitManager _produitManager;
+    protected ProductManager _produitManager;
 
     private IBuy _buyHandler;
     private ISell _sellHandler;
@@ -29,13 +29,13 @@ public class GameShop : MonoBehaviour
         _buyHandler = GetComponent<IBuy>();
         _sellHandler = GetComponent<ISell>();
 
-        _produitManager = new ProduitManager();
+        _produitManager = new ProductManager();
         _playerData = GameManagerPlayerData.Instance.PlayerData;
 
         _goldPlayerImage.gameObject.SetActive(false);
     }
 
-    public void Shop(ProduitType produitType)
+    public void Shop(ProductType productType)
     {
         _subTitle.SetSubtitle("Bonjour, comment je peux vous aider ajourd'hui");
 
@@ -45,7 +45,7 @@ public class GameShop : MonoBehaviour
         Time.timeScale = 0;
 
         //Cree le button Acheter
-        _buttonFactory.CreateButton("Acheter", () => _buyHandler.Buy(produitType));
+        _buttonFactory.CreateButton("Acheter", () => _buyHandler.Buy(productType));
         _shopUIManager.DecreaseYPosition();
 
         //Cree le Button Vendre

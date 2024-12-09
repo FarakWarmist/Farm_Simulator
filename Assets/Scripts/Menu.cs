@@ -10,34 +10,70 @@ public class Menu : MonoBehaviour
 {
     [SerializeField] private Canvas _canvas;
     [SerializeField] private GameObject _menu;
-    [SerializeField] private GameObject _inventaire;
-    [SerializeField] private TMP_Text _inventaireText;
-    [SerializeField] private Button _buttonInventaire;
-    [SerializeField] private Button _exit;
+    [SerializeField] private GameObject _inventory;
+    [SerializeField] private TMP_Text _inventoryText;
+    [SerializeField] private Button _buttonInventory;
+    [SerializeField] private Button _buttonExit;
+
+    private bool _isMenuActive = false;
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (_menu.activeInHierarchy || _inventaire.activeInHierarchy)
-            {
-                _menu.SetActive(false);
-                _inventaire.SetActive(false);
-                _canvas.enabled = true;
-                Time.timeScale = 1;
-                _buttonInventaire.onClick.RemoveAllListeners();
-                _exit.onClick.RemoveAllListeners();
+            _isMenuActive = !_isMenuActive;
 
+            if (_isMenuActive)
+            {
+                OpenMenu();
             }
             else
             {
-                _menu.SetActive(true);
-                _canvas.enabled = false;
-                Time.timeScale = 0;
-                _buttonInventaire.onClick.AddListener(() => ButtonInventaire());
-                _exit.onClick.AddListener(() => ExitGame());
-
+                CloseMenu();
             }
+        }
+    }
+
+    //Ouvrire le menu 
+    private void OpenMenu()
+    {
+        _menu.SetActive(true);
+        _inventory.SetActive(false);
+        _canvas.enabled = false;
+        Time.timeScale = 0;
+
+        _buttonInventory.onClick.AddListener(() => ShowInventory());
+        _buttonExit.onClick.AddListener(() => ExitGame());
+    }
+
+    //Fermer le menu
+    private void CloseMenu()
+    {
+        _menu.SetActive(false);
+        _inventory.SetActive(false);
+        _canvas.enabled = true;
+        Time.timeScale = 1;
+
+        _buttonInventory.onClick.RemoveAllListeners();
+        _buttonExit.onClick.RemoveAllListeners();
+    }
+
+    private void ShowInventory()
+    {
+        _inventory.SetActive(true);
+        _menu.SetActive(false);
+
+        if (ProductManager.PlayerProducts == null || ProductManager.PlayerProducts.Count == 0)
+        {
+            _inventoryText.text = "Aucun produit dans votre inventaire";
+            return;
+        }
+
+        _inventoryText.text = "";
+
+        foreach (var items in ProductManager.PlayerProducts)
+        {
+            _inventoryText.text += $"Nom: {items.ProduitName} Quantiter: {items.Quantity}\n";
         }
     }
 
@@ -45,24 +81,5 @@ public class Menu : MonoBehaviour
     {
         GameManagerTime.Instance.SaveData();
         GameManagerPlayerData.Instance.SaveData();
-    }
-
-    private void ButtonInventaire()
-    {
-        _inventaire.SetActive(true);
-        _menu.SetActive(false);
-
-        if (ProduitManager.ProduitsPlayer == null || ProduitManager.ProduitsPlayer.Count == 0)
-        {
-            _inventaireText.text = "aucun produit dans votre inventaire";
-            return;
-        }
-
-        _inventaireText.text = "";
-
-        foreach (var items in ProduitManager.ProduitsPlayer)
-        {
-            _inventaireText.text += $"Nom: {items.ProduitName} Quantiter: {items.Quantiter}\n";
-        }
     }
 }
